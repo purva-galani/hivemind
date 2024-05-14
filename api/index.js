@@ -21,7 +21,7 @@ const imageDownloader = require('image-downloader')
 app.use('/uploads',express.static(__dirname+'/uploads'))
 
 app.use(cors({
-    origin:'http://localhost:5173',
+    origin:'http://localhost:4200',
     credentials:true,
 }));
 
